@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Arya:wght@400;700&family=Oxanium:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oxanium", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./v1016-b-09.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container{
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 40px 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+
+.container h1{
+    font-size: 35px;
+    align-items: center;
+
+}
+
+.input{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin: 30px;
+}
+
+.input input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border: 3px solid ;
+    border-radius: 45px;
+    font-size: 16px;
+    color: aliceblue;
+    padding: 20px 45px 20px 20px;
+}
+
+.input input::placeholder{
+    color: aliceblue;
+}
+
+.lembre{
+   display: flex;
+   justify-content: space-between;
+   margin-right: 4px;
+   margin: -15px 0 15px;
+
+
+}
+
+.Login{
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;;
+
+}
+
+.registrar{
+    display: flex;
+   justify-content: space-between;
+
+  
+}
